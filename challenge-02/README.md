@@ -24,7 +24,7 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 function atribui_valor(){
-  vazia = "VALOR";
+  vazia = 10;
   return "O valor da variável agora é" + vazia;
 }
 
@@ -32,7 +32,7 @@ function atribui_valor(){
 atribui_valor;
 
 // Qual o retorno da função? (Use comentários de bloco).
-'VALOR';
+/* oO valor da variável agora é 10*/
 
 /*
 Crie uma função com as seguintes características:
