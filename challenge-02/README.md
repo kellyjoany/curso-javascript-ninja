@@ -43,8 +43,7 @@ Crie uma função com as seguintes características:
 */
 function multiplicar(x,y,z){
   if( x == undefined || y == undefined || z == undefined){
-      var alerta = "Preecnha todos os valores corretamente";
-      return alerta;
+      return "Preecnha todos os valores corretamente";
   } else {
     return (x * y * z) + 2;  
   }
