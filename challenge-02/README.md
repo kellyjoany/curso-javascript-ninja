@@ -70,7 +70,17 @@ Crie uma função com as seguintes características:
 5. Se nenhum argumento for passado, retorne o valor booleano `false`.
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
-?
+function teste(x,y,z){
+  if(y == null && z == null){
+    return x;
+  } else if (z == null){
+    return x + y;
+  } else if (x == nul && y == null && z == null){
+  var vazio = false;
+  return vazio;
+  } else {
+  return null;
+}
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
