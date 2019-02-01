@@ -25,6 +25,7 @@ Onde VALOR é o novo valor da variável.
 */
 function atribui_valor(){
   vazia = "VALOR";
+  return "O valor da variável agora é" + vazia;
 }
 
 // Invoque a função criada acima.
