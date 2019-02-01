@@ -42,7 +42,7 @@ Crie uma função com as seguintes características:
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
 function multiplicar(x,y,z){
-  if( x == null || y == null || z == null){
+  if( x == undefined || y == undefined || z == undefined){
       var alerta = "Preecnha todos os valores corretamente";
       return alerta;
   } else {
@@ -72,15 +72,16 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function teste(x,y,z){
-  if(y == null && z == null){
+  if(y == undefined && z == undefined){
     return x;
-  } else if (z == null){
+  } else if (z == undefined){
     return x + y;
-  } else if (x == null && y == null && z == null){
+  } else if (x == undefined && y == undefined && z == undefined){
   var vazio = false;
   return vazio;
   } else {
-  return null;
+  var nada = null;
+  return nada;
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
