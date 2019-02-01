@@ -16,7 +16,7 @@ result += 5;
 20
 
 // Declare uma nova variável, sem valor.
-var vazia = null;
+var vazia;
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
