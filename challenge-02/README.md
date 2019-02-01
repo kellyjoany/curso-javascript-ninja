@@ -42,23 +42,24 @@ Crie uma função com as seguintes características:
 */
 function multiplicar(x,y,z){
   if( x == null || y == null || z == null){
-      echo "Preecnha todos os valores corretamente";
+      var alerta = "Preecnha todos os valores corretamente";
+      return alerta;
   } else {
     return (x * y * z) + 2;  
   }
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-?
+multiplicar(2,5)
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
+//Preencha todos os valores corretamente;
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-?
+multiplicar(2,5,3)
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
+//32
 
 /*
 Crie uma função com as seguintes características:
