@@ -178,7 +178,13 @@ deve conter no retorno da frase acima é "metro" no lugar de "metros".
 método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
-?
+pessoa.aprensentar = function(){
+	if(pessoa.sexo == "Feminino" && pessoa.idade != 1 && pessoa.caminhouQuantosMetros != 1){
+		return "Eu sou a " pessoa.nome + " e tenho " + pessoa.idade + " , minha altura é " + pessoa.altura + " e só hj caminhei " + pessoa.caminhouQuantosMetros
+	} else if ( pessoa.idade == 1 && pessoa.caminhouQuantosMetros == 1){
+		return "Eu sou o " pessoa.nome + " e tenho " + pessoa.idade + " , minha altura é " + pessoa.altura + " e só hj caminhei " + pessoa.caminhouQuantosMetros
+	}
+}
 
 // Agora, apresente-se ;)
 ?
