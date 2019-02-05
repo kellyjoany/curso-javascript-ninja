@@ -71,8 +71,10 @@ pessoa.nomecompleto = function(){
 Crie um método chamado `mostrarIdade`, que retorne a frase:
 - "Olá, eu tenho [IDADE] anos!"
 */
-?
-
+pessoa.mostrarIdade = function(){
+  return "ola eu tenho " + pessoa.idade + " " + "anos";
+}
+  
 /*
 Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
