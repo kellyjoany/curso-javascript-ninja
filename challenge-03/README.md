@@ -179,11 +179,21 @@ método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
 pessoa.aprensentar = function(){
-	if(pessoa.sexo == "Feminino" && pessoa.idade != 1 && pessoa.caminhouQuantosMetros != 1){
-		return "Eu sou a " pessoa.nome + " e tenho " + pessoa.idade + " , minha altura é " + pessoa.altura + " e só hj caminhei " + pessoa.caminhouQuantosMetros
-	} else if ( pessoa.idade == 1 && pessoa.caminhouQuantosMetros == 1){
-		return "Eu sou o " pessoa.nome + " e tenho " + pessoa.idade + " , minha altura é " + pessoa.altura + " e só hj caminhei " + pessoa.caminhouQuantosMetros
+	sexo = "o";
+    idade = 1;
+    metros = 1;
+
+	if( pessoa.sexo == "Feminino"){
+		sexo == "a";
+	}	
+	if( pessoa.idade != 1){
+		idade == pessoa.idade;
 	}
+	if( pessoa.caminhouQuantosMetros != 1){
+		metros = pessoa.caminhouQuantosMetros;
+	}
+	return "Eu sou " + sexo + pessoa.nome + " e tenho " + idade + " , minha altura é " + pessoa.altura + " e só hj caminhei " + metros + "!"
+}
 }
 
 // Agora, apresente-se ;)
