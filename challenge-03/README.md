@@ -79,13 +79,17 @@ pessoa.mostrarIdade = function(){
 Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
 */
-?
+pessoa.mostrarPeso = function(){
+  return "eu peso " + pessoa.peso;
+}
 
 /*
 Crie um método chamado `mostrarAltura` que retorne a frase:
 - "Minha altura é [ALTURA]m."
 */
-?
+pessoa.mostrarAltura = function(){
+  return "Minha altura é " + pessoa.altura + "m";
+}
 
 /*
 Agora vamos brincar um pouco com o objeto criado:
