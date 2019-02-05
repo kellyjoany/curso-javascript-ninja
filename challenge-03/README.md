@@ -55,7 +55,9 @@ pessoa.andar = function(x){
 Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
 da propriedade `andando` para o valor booleano que representa "falso".
 */
-?
+pessoa.parar = function(){
+  pessoa.andando = false;
+ }
 
 /*
 Crie um método chamado `nomeCompleto`, que retorne a frase:
