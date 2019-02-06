@@ -14,7 +14,18 @@ var isTruthy = function(x){
  }
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
-?
+isTruthy(undefined)
+false
+isTruthy(null)
+false
+isTruthy(NaN)
+false
+isTruthy(0)
+false
+isTruthy(-0)
+false
+isTruthy('')
+false
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
