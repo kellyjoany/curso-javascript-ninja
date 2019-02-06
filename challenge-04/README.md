@@ -30,7 +30,26 @@ false
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-?
+isTruthy(1)
+true
+isTruthy(2)
+true
+isTruthy(3)
+true
+isTruthy('fernando')
+true
+isTruthy('kelly')
+true
+isTruthy('joao')
+true
+isTruthy('4')
+true
+isTruthy('5')
+true
+isTruthy(6)
+true
+isTruthy(7)
+true
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
