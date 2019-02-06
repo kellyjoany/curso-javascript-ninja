@@ -132,11 +132,11 @@ carro.addPessoas = function(x){
        }
 	 return "so cabem " + (5 - carro.assentos) + " pessoas"
   }
-	if (carro.assentos == 5){
-  	  return "O carro já esta lotado";
+  if (carro.assentos == 5){
+  	      return "O carro já esta lotado";
   }
   carro.assentos += x;	
-  return "já temos " + carro.assentos + " no carro!";
+  return "já temos " + carro.assentos + " no carro!";}
 }
 
 /*
@@ -146,26 +146,28 @@ adicionando comentários _inline_ ao lado com o valor retornado, se o método
 retornar algum valor.
 
 Qual a cor atual do carro?
-*/
-?
+carro.cor
+"branco"
 
 // Mude a cor do carro para vermelho.
-?
+carro.mudaCor("vermelho") 
 
 // E agora, qual a cor do carro?
-?
+carro.cor
+"vermelho"
 
 // Mude a cor do carro para verde musgo.
-?
+carro.mudaCor("verde musgo") 
 
 // E agora, qual a cor do carro?
-?
+carro.cor
+"verde musgo"
 
 // Qual a marca e modelo do carro?
-?
+carro.obterMarcaModelo() 
 
 // Adicione 2 pessoas no carro.
-?
+carro.addPessoas(2)
 
 // Adicione mais 4 pessoas no carro.
 ?
