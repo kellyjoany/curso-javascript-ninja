@@ -85,7 +85,7 @@ Ainda com a função acima, imprima a quantidade de páginas de um livro qualque
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-// ?
+"O livro harry tem " + book("harry").quantidadePaginas + " paginas "
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
