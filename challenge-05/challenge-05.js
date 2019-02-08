@@ -50,12 +50,35 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
-// ?
+function book (novo_livro){
+	 var livros = {
+	 harry: {
+		quantidadePaginas: 200,
+		autor: "jk",
+		editora: "Rocco",	
+		},
+	 got: {
+		quantidadePaginas: 900,
+		autor: "jrrMartin",
+		editora: "Leya",	
+		},
+	 drizzt: {
+		quantidadePaginas: 300,
+		autor: "salvatore",
+		editora: "jambo",	
+		}
+	};
+
+	if( novo_livro == undefined ){
+		return livros;
+	}	
+     return livros[novo_livro];  	
+}
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
-// ?
+book();
 
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
