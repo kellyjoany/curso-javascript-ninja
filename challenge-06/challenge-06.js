@@ -115,4 +115,26 @@ function convertHex(cor){
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-// ?
+convertHex(0)
+O hexadecimal para a cor red é #fb3054 debugger eval code:6:3
+undefined
+convertHex(1)
+O hexadecimal para a cor blue é #3b5998 debugger eval code:9:3
+undefined
+convertHex(2)
+O hexadecimal para a cor pink é #e92197 debugger eval code:12:3
+undefined
+convertHex(3)
+O hexadecimal para a cor green é #0d4f02 debugger eval code:15:3
+undefined
+convertHex(4)
+O hexadecimal para a cor white é #ffffff debugger eval code:18:3
+undefined
+convertHex(5)
+O hexadecimal para a cor yellow é #e7a047 debugger eval code:21:3
+undefined
+convertHex(6)
+O hexadecimal para a cor gray é #eeeeee debugger eval code:24:3
+undefined
+convertHex(7)
+O hexadecimal para a cor purple é #885fcd
