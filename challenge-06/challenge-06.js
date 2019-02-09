@@ -33,13 +33,28 @@ Crie uma função chamada `showTeamPosition` com as seguintes características:
     - Se não houver time para a posição passada, deve retornar a mensagem:
     "Não temos a informação do time que está nessa posição."
 */
-// ?
+function showteamposition(posicao){
+    if(posicao <= 5){
+   	 lugar = posicao;
+    	 posicao--;
+         console.log('O time que está em ' + lugar + 'º lugar é o ' + teams[posicao]);
+    }else{
+         console.log('Não temos a informação do time que está nessa posição.');
+   } 
+} 
 
 /*
 Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
 função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
 */
-// ?
+showteamposition(1);
+//O time que está em 1º lugar é o flamengo
+showteamposition(2);
+//O time que está em 1º lugar é o flamengo
+showteamposition(3);
+//O time que está em 1º lugar é o flamengo
+seis = "america"
+console.log('O time que está em 6º lugar é o ' + seis);
 
 /*
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
