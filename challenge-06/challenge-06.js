@@ -60,7 +60,11 @@ console.log('O time que está em 6º lugar é o ' + seis);
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
-// ?
+temp = 20
+while(temp <= 30){
+   console.log(temp); 
+   temp++;  
+}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
