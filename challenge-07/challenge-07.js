@@ -1,7 +1,7 @@
 /*
 Crie um array com 5 items (tipos variados).
 */
-var lista = ["a", 2, true, function(), "b",];
+var lista = ["a", 2, true, function(){}, "b"];
 
 /*
 Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
@@ -33,7 +33,8 @@ console.log("o elemento do segundo array é " + lista[1]);
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
 "O primeiro array tem [QUANTIDADE DE ITENS] itens."
 */
-// ?
+// 
+console.log("o elemento do primeiro array é " + lista.lenght);
 
 /*
 Agora mostre no console quantos itens tem o segundo array criado, com a frase:
@@ -41,19 +42,29 @@ Agora mostre no console quantos itens tem o segundo array criado, com a frase:
 */
 // ?
 
+console.log("o elemento do segundo array é " + lista[5].lenght);
 /*
 Utilizando a estrutura de repetição `while`, mostre no console todos os números
 pares entre 10 e 20, inclusive esses 2.
 */
 console.log( 'Números pares entre 10 e 20:' );
-// ?
+
+var x = 10;
+while((x >= 10 && x <= 20) && ( x % 2 == 0) ){
+      console.log("numeros pares " + x);
+      x += 2;
+}
 
 /*
 Na mesma ideia do exercício acima: mostre agora os números ímpares.
 */
 console.log( 'Números ímpares entre 10 e 20:' );
 // ?
-
+var x = 11;
+while((x >= 10 && x <= 20) && ( x % 2 != 0) ){
+      console.log("numeros impares " + x);
+      x += 2;
+}
 /*
 Repita os mesmos exercícios feitos acima, mas agora usando o loop "for".
 Só vamos mudar o range:
