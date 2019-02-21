@@ -13,31 +13,33 @@ o resultado no console, com a frase:
 "A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
 */
 sum(1,2);
-console.log("A soma de " + calculate[1] " e " + calculate[2] é  )
+console.log("A soma de " + 1 + " e " + 2 + " é " + sum(1,2) );
 
 /*
 Mostre no console o nome da função criada acima, com a frase:
 "O nome da função que faz a soma é [NOME DA FUNÇÃO]."
 */
-// ?
+console.log("O nome da função que faz a soma é " + sum.name);
 
 /*
 Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
-// ?
+function showName(){
+  return "kelly";
+}
 
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
 */
 // ?
-
+var varShowName = showName();
 /*
 Usando a variável criada acima, mostre no console o nome e o retorno da função
 atribuída a ela, com a seguinte frase:
 "A função [NOME DA FUNÇÃO] retorna [RETORNO DA FUNÇÃO]."
 */
-// ?
+console.log("a função " + varShowName.name + " retorna " + varShowName);
 
 /*
 Crie uma função literal chamada `calculator`, que funcione assim:
